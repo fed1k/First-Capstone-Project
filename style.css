@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Navigation bar */
@@ -76,6 +77,84 @@
 
 /* Menu ends here */
 
+/* Introduction starts here */
 .introduction {
-  padding: 100px 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px 15px;
+  background-image: url(img/introductionImage.jpg);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+.intro-text {
+  color: #df303f;
+  font-family: Lato, serif;
+  font-size: 32px;
+  background-color: #f5f5f5;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.intro-text2 {
+  color: #a6a6a6;
+  font-family: Lato, serif;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  opacity: 0.6;
+}
+
+.ielts-link {
+  color: #df303f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 50px;
+  font-family: Lato, serif;
+}
+
+/* Our program section starts here */
+.our-program {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url(img/blackBg.jpg);
+  padding: 30px 15px;
+}
+
+.our-program-header {
+  color: #fcfdff;
+  align-self: center;
+  font-family: Lato, serif;
+  font-size: 22px;
+}
+
+.our-program-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.our-program-cards {
+  background-color: #3d4047;
+  opacity: 0.4;
+  padding: 20px 30px;
+}
+
+.our-program-paragraph {
+  color: #fff;
+  font-family: Lato, serif;
+}
+
+.our-program-join-btn {
+  background-color: #ff4f38;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  width: 200px;
+  align-self: center;
 }
