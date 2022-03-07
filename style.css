@@ -86,12 +86,13 @@
   background-image: url(img/introductionImage.jpg);
   background-size: 100% 90%;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .intro-text {
   color: #df303f;
   font-family: Lato, serif;
-  font-size: 32px;
+  font-size: 40px;
   background-color: #f5f5f5;
   opacity: 0.7;
   padding: 10px;
@@ -100,7 +101,7 @@
 .intro-text2 {
   color: #a6a6a6;
   font-family: Lato, serif;
-  font-size: 30px;
+  font-size: 32px;
   background-color: #f5f5f5;
   opacity: 0.6;
 }
@@ -137,14 +138,27 @@
 }
 
 .our-program-cards {
-  background-color: #3d4047;
-  opacity: 0.4;
-  padding: 20px 30px;
+  background-color: rgb(61 64 71 / 40%);
+  padding: 17px;
+  display: flex;
+  gap: 20px;
+}
+
+h6 {
+  color: #fe5035;
+  align-self: center;
+  font-size: 15px;
 }
 
 .our-program-paragraph {
-  color: #fff;
+  color: #dadbdc;
   font-family: Lato, serif;
+}
+
+.icons {
+  color: #dadbdc;
+  font-size: 30px;
+  align-self: center;
 }
 
 .our-program-join-btn {
@@ -157,4 +171,73 @@
   text-decoration: none;
   width: 200px;
   align-self: center;
+}
+
+/* Featured Speakers section starts here */
+.featured-speakers-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 15px;
+  gap: 40px;
+}
+
+.featured-speaker-header {
+  align-self: center;
+  font-size: 24px;
+  font-family: Lato, serif;
+  font-weight: 600;
+}
+
+.featured-speaker-card {
+  display: flex;
+  padding: 15px;
+  background-image: url(img/chess.jpg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  gap: 25px;
+}
+
+.featured-speaker-hidden {
+  display: none;
+}
+
+.featured-speaker-active {
+  display: flex;
+}
+
+.speaker-img {
+  width: 100px;
+  height: 100px;
+}
+
+.speaker-name {
+  font-family: Lato, serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.about-speaker {
+  color: #fe8275;
+  font-family: Lato, serif;
+  font-style: italic;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.more-about-speaker {
+  padding-top: 30px;
+  font-family: Lato, serif;
+}
+
+.featured-speaker-btn {
+  height: 40px;
+  font-family: Lato, serif;
+  font-size: 15px;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+}
+
+.down-arrow {
+  padding-left: 15px;
+  color: red;
 }
