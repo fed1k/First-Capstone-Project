@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation bar */
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+/* Hamburger button here */
+.hamburger-menu {
+  display: inline-block;
+}
+
+#logo {
+  width: 70px;
+  float: right;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.hamburger-items1,
+.hamburger-items2,
+.hamburger-items3 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-items1-active {
+  transform: rotate(-50deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-items2-active {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-items3-active {
+  transform: rotate(50deg) translate(-15px, -12px);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-list-active {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  font-family: Lato, serif;
+  font-weight: 400;
+}
+
+.menu-list-items {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* Menu ends here */
+
+.introduction {
+  padding: 100px 15px 0;
+}
