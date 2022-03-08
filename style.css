@@ -10,7 +10,7 @@
 /* Navigation bar */
 .navbar {
   width: 100%;
-  height: 64px;
+  height: auto;
   background-color: #f5f5f5;
   padding: 15px;
 }
@@ -26,7 +26,7 @@
 
 #logo {
   width: 70px;
-  float: right;
+  display: none;
 }
 
 .hamburger-menu:hover {
@@ -71,6 +71,10 @@
   font-size: 18px;
   font-family: Lato, serif;
   font-weight: 400;
+}
+
+.campaign {
+  display: none;
 }
 
 .menu-list-items {
@@ -134,6 +138,15 @@
   font-size: 22px;
 }
 
+.our-program-header::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: #a94335;
+  margin: 10px 0 0 35px;
+}
+
 .our-program-cards-container {
   display: flex;
   flex-direction: column;
@@ -181,7 +194,7 @@ h6 {
 .featured-speakers-section {
   display: flex;
   flex-direction: column;
-  padding: 40px 15px;
+  padding: 40px 60px;
   gap: 40px;
 }
 
@@ -190,6 +203,15 @@ h6 {
   font-size: 24px;
   font-family: Lato, serif;
   font-weight: 600;
+}
+
+.featured-speaker-header::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: #a94335;
+  margin: 10px 0 0 75px;
 }
 
 .featured-speaker-card {
@@ -264,10 +286,19 @@ h6 {
   color: red;
 }
 
+footer {
+  display: none;
+}
+
 /* Desktop version starts here */
 @media (min-width: 768px) {
   .hamburger-menu {
     display: none;
+  }
+
+  #logo {
+    width: 130px;
+    display: block;
   }
 
   .menu-list {
@@ -275,9 +306,9 @@ h6 {
     justify-content: flex-end;
     list-style: none;
     align-items: center;
-    height: 70%;
+    height: 100%;
     gap: 50px;
-    padding: 0 60px;
+    padding: 0 45px 0 0;
   }
 
   #navbar-social-icons {
@@ -290,9 +321,19 @@ h6 {
     color: #f9f9f9;
   }
 
+  .campaign {
+    display: block;
+    padding: 8px;
+    border: 4px solid #ed4f3d;
+    color: #ed4f3d;
+    width: 120px;
+  }
+
   .navbar {
-    padding: 0;
+    padding: 0 0 0 60px;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
   }
 
   /* Navbar ends here */
@@ -356,6 +397,15 @@ h6 {
     font-weight: 300;
   }
 
+  #partner::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: #a94335;
+    margin: 15px 0 0 25px;
+  }
+
   .partner-items {
     font-family: Lato, serif;
     font-size: 30px;
@@ -373,10 +423,38 @@ h6 {
     height: 200px;
     width: 100%;
     padding: 30px 60px;
+    display: flex;
   }
 
   .ending-page-logo {
     width: 100px;
     height: 100px;
+  }
+
+  footer {
+    display: block;
+  }
+}
+
+@media (max-width: 330px){
+  .featured-speaker-card {
+    flex-direction: column;
+  }
+
+  .our-program-cards {
+    flex-direction: column;
+  }
+
+  .intro-text {
+    font-size: 25px;
+  }
+
+  .featured-speaker-header::after {
+    margin: 10px 0 0 25px;
+    width: 30px;
+  }
+
+  .featured-speaker-header {
+    width: 100px;
   }
 }
