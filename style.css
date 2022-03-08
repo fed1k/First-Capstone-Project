@@ -382,7 +382,7 @@ footer {
   .partners {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 260px;
     width: 100%;
     background-color: #414246;
     padding: 40px 60px;
@@ -406,17 +406,10 @@ footer {
     margin: 15px 0 0 25px;
   }
 
-  .partner-items {
-    font-family: Lato, serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: #a3a3a2;
-  }
-
   .collaborators-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 95px;
   }
 
   .ending-page {
@@ -424,15 +417,33 @@ footer {
     width: 100%;
     padding: 30px 60px;
     display: flex;
+    justify-content: center;
+    gap: 50px;
   }
 
   .ending-page-logo {
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 140px;
+  }
+
+  #ending-paragraph {
+    width: 45vw;
+    padding-top: 45px;
+    font-family: Lato, serif;
+    line-height: 25px;
+
   }
 
   footer {
     display: block;
+  }
+
+  .britishcouncil,
+  .idp,
+  .cambridgeassessment {
+    width: 200px;
+    height: 100px;
+    
   }
 }
 
@@ -456,5 +467,9 @@ footer {
 
   .featured-speaker-header {
     width: 100px;
+  }
+
+  .ielts-link {
+    font-size: 13px;
   }
 }
