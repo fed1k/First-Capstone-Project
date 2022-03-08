@@ -34,7 +34,7 @@ const featuredSpeakerSection = document.createElement('section');
 featuredSpeakerSection.className = 'featured-speakers-section';
 featuredSpeakerSection.innerHTML = `
       <h3 class="featured-speaker-header">${data.headerText}</h3>
-      <div>
+      <div class="featured-speaker-container">
           <div class="featured-speaker-card">
               <img class="speaker-img" src="${data.imgSource[0]}" alt="">
               <div>
@@ -85,14 +85,26 @@ featuredSpeakerSection.innerHTML = `
           </div>
       </div>
       <button class="featured-speaker-btn" type="button">MORE<i class="fas fa-chevron-down down-arrow"></i></button>
+      <button class="featured-speaker-btn2" type="button">HIDE<i class="fas fa-chevron-up up-arrow"></i></button>
 `;
 main.appendChild(featuredSpeakerSection);
 
 const featuredSpeakerBtn = document.querySelector('.featured-speaker-btn');
+const featuredSpeakerBtn2 = document.querySelector('.featured-speaker-btn2');
 const featuredSpeakerCard = document.querySelectorAll('.featured-speaker-hidden');
 
 featuredSpeakerBtn.addEventListener('click', () => {
   featuredSpeakerCard.forEach((i) => {
     i.classList.toggle('featured-speaker-active');
+  });
+  featuredSpeakerBtn.style.display = 'none';
+  featuredSpeakerBtn2.style.display = 'block';
+});
+
+featuredSpeakerBtn2.addEventListener('click', () => {
+  featuredSpeakerBtn2.style.display = 'none';
+  featuredSpeakerBtn.style.display = 'block';
+  featuredSpeakerCard.forEach((i) => {
+    i.classList.remove('featured-speaker-active');
   });
 });
