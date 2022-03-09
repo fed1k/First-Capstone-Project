@@ -4,6 +4,7 @@ const hamburgeritems2 = document.querySelector('.hamburger-items2');
 const hamburgeritems3 = document.querySelector('.hamburger-items3');
 const menuListItems = document.querySelectorAll('.menu-list-items');
 const menuList = document.querySelector('.menu-list');
+const logo = document.querySelector('.ending-page-logo');
 
 hamburgerbtn.addEventListener('click', () => {
   hamburgeritems1.classList.toggle('hamburger-items1-active');
@@ -20,3 +21,13 @@ menuListItems.forEach((i) => {
     hamburgeritems3.classList.remove('hamburger-items3-active');
   });
 });
+
+const imageToggler = () => {
+  if (window.screen.width <= 768) {
+    logo.src = 'img/whitelogo.png';
+  } else {
+    logo.src = 'img/brownaboutlogo.png';
+  }
+};
+
+setInterval(imageToggler, 100);

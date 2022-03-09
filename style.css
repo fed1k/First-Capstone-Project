@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 
 * {
   margin: 0;
@@ -307,14 +307,14 @@ footer {
   padding: 10px;
   color: #fa4226;
   box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);
-  background-color: rgb(247, 247, 247, 65%);
+  background-color: rgb(247 247 247 / 65%);
 }
 
 .about-intro-p {
   color: #717171;
   padding: 15px 12px;
   border: 1px solid transparent;
-  background-color: rgb(255, 255, 255, 60%);
+  background-color: rgb(255 255 255 / 60%);
   font-family: Lato, serif;
   line-height: 33px;
   font-weight: 600;
@@ -349,6 +349,10 @@ footer {
   gap: 18px;
 }
 
+.link {
+  display: none;
+}
+
 .about-logo-header {
   color: #3d3d3d;
   font-size: 30px;
@@ -360,7 +364,7 @@ footer {
 }
 
 .about-logo-header::after {
-  content: '';
+  content: "";
   margin: 10px 0 0 45%;
   display: block;
   width: 35px;
@@ -414,7 +418,7 @@ footer {
 }
 
 .see-past-header::after {
-  content: '';
+  content: "";
   margin: 10px 0 0 45%;
   display: block;
   width: 35px;
@@ -535,7 +539,7 @@ footer {
   }
 
   .menu-list-items::after {
-    content: '';
+    content: "";
     display: block;
     width: 1%;
     height: 1px;
@@ -685,6 +689,52 @@ footer {
     width: 25%;
     height: 60%;
   }
+
+  /* About page starts here for desktop */
+  .about-introduction {
+    padding: 40px 15%;
+  }
+
+  .about-intro-text {
+    align-self: center;
+    width: 45vw;
+  }
+
+  .about-contact-p {
+    width: 40vw;
+  }
+
+  .about-logo-section {
+    padding: 40px 150px;
+  }
+
+  .link {
+    display: block;
+    padding-left: 8px;
+  }
+
+  .see-past-section {
+    padding: 40px 150px;
+  }
+
+  .see-past-img,
+  .see-past-img2 {
+    width: 50%;
+  }
+
+  .see-past-img-container {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .ending-page {
+    background-color: #2e2e2e;
+    color: #9b9b9b;
+  }
 }
 
 @media (max-width: 330px) {
@@ -711,5 +761,26 @@ footer {
 
   .ielts-link {
     font-size: 13px;
+  }
+
+  .collaborators-container {
+    gap: 28px;
+  }
+
+  .about-logo-header {
+    width: 76vw;
+  }
+
+  .about-logo-p {
+    width: 81vw;
+  }
+
+  .ending-page {
+    gap: 0;
+    padding: 30px 0;
+  }
+
+  #ending-paragraph {
+    padding-top: 10px;
   }
 }

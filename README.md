@@ -1,11 +1,17 @@
 # First-Capstone-Project
 
 
-## Mobile version
+## Mobile version Home page
 ![screenshot](img/intoductionScreenshot.png)
 
-## Desktop version
+## Desktop version Home page
 ![screenshot](img/introductionDesktopscreenshot.png)
+
+## Mobile version About page
+![screenshot](img/aboutpagemobscreen.png)
+
+## Desktop version About page
+![screenshot](img/aboutpagedesktopscreen.png)
 
 ## Built with :
  * HTML/CSS
