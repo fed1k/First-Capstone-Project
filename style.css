@@ -736,15 +736,6 @@ footer {
     flex-direction: row;
     margin-top: 20px;
   }
-
-  .partners {
-    display: none;
-  }
-
-  .ending-page {
-    background-color: #2e2e2e;
-    color: #9b9b9b;
-  }
 }
 
 @media (max-width: 330px) {
