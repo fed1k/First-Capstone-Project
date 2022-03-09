@@ -4,7 +4,7 @@
 
 
 ## Mobile version Home page | Desktop version Home page
-![screenshot](img/intoductionScreenshot.png) | ![screenshot](img/introductionDesktopscreenshot.png)
+![screenshot](img/homepageMobile.png) | ![screenshot](img/introductionDesktopscreenshot.png)
 
 ## Mobile version About page | Desktop version About page
 ![screenshot](img/aboutpagemobscreen.png) | ![screenshot](img/aboutpagedesktopscreen.png)
