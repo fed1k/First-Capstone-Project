@@ -40,7 +40,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[0]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[0]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[0]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[0]}</p>
               </div>
           </div>
           <div class="featured-speaker-card">
@@ -48,7 +48,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[1]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[1]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[1]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[1]}</p>
               </div>
           </div>
           <div class="featured-speaker-card featured-speaker-hidden">
@@ -56,7 +56,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[2]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[2]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[2]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[2]}</p>
               </div>
           </div>
           <div class="featured-speaker-card featured-speaker-hidden">
@@ -64,7 +64,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[3]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[3]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[3]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[3]}</p>
               </div>
           </div>
           <div class="featured-speaker-card featured-speaker-hidden">
@@ -72,7 +72,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[4]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[4]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[4]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[4]}</p>
               </div>
           </div>
           <div class="featured-speaker-card featured-speaker-hidden">
@@ -80,7 +80,7 @@ featuredSpeakerSection.innerHTML = `
               <div>
                   <h3 class="speaker-name">${data.featuredSpeakerNames[5]}</h3>
                   <h5 class="about-speaker">${data.featuredSpeakerAbout1[5]}</h5>
-                  <p class="more-about-speaker">${data.featuredSpeakerAbout1[5]}</p>
+                  <p class="more-about-speaker">${data.featuredSpeakerAbout2[5]}</p>
               </div>
           </div>
       </div>

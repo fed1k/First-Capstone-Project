@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 * {
   margin: 0;
@@ -109,7 +109,7 @@
   color: #a6a6a6;
   font-family: Lato, serif;
   font-size: 32px;
-  background-color: rgb(245 245 245 / 60%);
+  background-color: rgb(245 245 245 / 40%);
 }
 
 .ielts-link {
@@ -139,7 +139,7 @@
 }
 
 .our-program-header::after {
-  content: '';
+  content: "";
   display: block;
   width: 50px;
   height: 1px;
@@ -206,7 +206,7 @@ h6 {
 }
 
 .featured-speaker-header::after {
-  content: '';
+  content: "";
   display: block;
   width: 50px;
   height: 1px;
@@ -290,6 +290,115 @@ footer {
   display: none;
 }
 
+/* About page starts here */
+.about-introduction {
+  background-image: url(img/aboutpageintro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  gap: 30px;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-intro-text {
+  font-family: Lato, serif;
+  font-size: 38px;
+  padding: 10px;
+  color: #fa4226;
+  box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);
+  background-color: rgb(247, 247, 247, 65%);
+}
+
+.about-intro-p {
+  color: #717171;
+  padding: 15px 12px;
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255, 60%);
+  font-family: Lato, serif;
+  line-height: 33px;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);
+}
+
+.about-contact-p {
+  width: 60vw;
+  text-align: center;
+  align-self: center;
+  font-size: 16px;
+  font-family: Lato, serif;
+  color: #717171;
+  font-weight: 600;
+  background-color: #f7f7f7;
+  box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);
+  padding: 5px;
+}
+
+#about-contact-link {
+  font-family: Lato, serif;
+  font-weight: 900;
+  color: #323232;
+  align-self: center;
+}
+
+.about-logo-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+  gap: 18px;
+}
+
+.about-logo-header {
+  color: #3d3d3d;
+  font-size: 30px;
+  width: 50vw;
+  text-align: center;
+  align-self: center;
+  font-family: Lato, serif;
+  font-weight: 500;
+}
+
+.about-logo-header::after {
+  content: '';
+  margin: 10px 0 0 45%;
+  display: block;
+  width: 35px;
+  background-color: #fc8f82;
+  height: 1px;
+}
+
+.about-logo-p {
+  width: 50vw;
+  padding-left: 15px;
+  align-self: center;
+  font-size: 16px;
+  font-family: Lato, serif;
+  color: #717171;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+#about-logo-container {
+  display: flex;
+  border: 1px solid #f0f0f0;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.about-logo-page-p {
+  font-family: Lato, serif;
+  font-weight: 600;
+  font-size: 25px;
+  align-self: center;
+  width: 160px;
+}
+
+.about-logo-img {
+  width: 30%;
+}
+
 /* Desktop version starts here */
 @media (min-width: 768px) {
   .hamburger-menu {
@@ -297,7 +406,7 @@ footer {
   }
 
   #logo {
-    width: 130px;
+    width: 10%;
     display: block;
   }
 
@@ -309,6 +418,25 @@ footer {
     height: 100%;
     gap: 50px;
     padding: 0 45px 0 0;
+  }
+
+  .menu-list-items::after {
+    content: '';
+    display: block;
+    width: 1%;
+    height: 1px;
+    margin: 2px 0;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu-list-items:hover::after {
+    background-color: #ed4f3d;
+    width: 100%;
+  }
+
+  .menu-list-items:hover {
+    color: #ed4f3d;
   }
 
   #navbar-social-icons {
@@ -398,7 +526,7 @@ footer {
   }
 
   #partner::after {
-    content: '';
+    content: "";
     display: block;
     width: 30px;
     height: 1px;
@@ -431,7 +559,6 @@ footer {
     padding-top: 45px;
     font-family: Lato, serif;
     line-height: 25px;
-
   }
 
   footer {
@@ -441,13 +568,12 @@ footer {
   .britishcouncil,
   .idp,
   .cambridgeassessment {
-    width: 200px;
-    height: 100px;
-    
+    width: 25%;
+    height: 60%;
   }
 }
 
-@media (max-width: 330px){
+@media (max-width: 330px) {
   .featured-speaker-card {
     flex-direction: column;
   }
