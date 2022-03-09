@@ -399,6 +399,120 @@ footer {
   width: 30%;
 }
 
+.see-past-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  gap: 15px;
+}
+
+.see-past-header {
+  font-family: Lato, serif;
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+}
+
+.see-past-header::after {
+  content: '';
+  margin: 10px 0 0 45%;
+  display: block;
+  width: 35px;
+  background-color: #fc8f82;
+  height: 1px;
+}
+
+.see-past-p {
+  text-align: center;
+  padding-left: 15px;
+  align-self: center;
+  font-size: 16px;
+  font-family: Lato, serif;
+  color: #717171;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.see-past-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);
+}
+
+.see-past-img2,
+.see-past-img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.footer {
+  display: block;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 100%;
+  background-color: #414246;
+  padding: 40px 60px;
+  gap: 20px;
+}
+
+#partner {
+  align-self: center;
+  color: #959596;
+  font-family: Lato, serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#partner::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #a94335;
+  margin: 15px 0 0 25px;
+}
+
+.collaborators-container {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+}
+
+.ending-page {
+  height: 200px;
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ending-page-logo {
+  width: 170px;
+  height: 140px;
+}
+
+#ending-paragraph {
+  width: 45vw;
+  padding-top: 45px;
+  font-family: Lato, serif;
+  line-height: 25px;
+}
+
+.britishcouncil,
+.idp,
+.cambridgeassessment {
+  width: 25%;
+  height: 60%;
+}
+
+/* About page ends here */
+
 /* Desktop version starts here */
 @media (min-width: 768px) {
   .hamburger-menu {
