@@ -5,6 +5,7 @@ const hamburgeritems2 = document.querySelector('.hamburger-items2');
 const hamburgeritems3 = document.querySelector('.hamburger-items3');
 const menuListItems = document.querySelectorAll('.menu-list-items');
 const menuList = document.querySelector('.menu-list');
+const introLogo = document.querySelector('#logo');
 
 hamburgerbtn.addEventListener('click', () => {
   hamburgeritems1.classList.toggle('hamburger-items1-active');
@@ -108,3 +109,9 @@ featuredSpeakerBtn2.addEventListener('click', () => {
     i.classList.remove('featured-speaker-active');
   });
 });
+
+const introLogofunc = () => {
+  window.location = 'index.html';
+};
+
+introLogo.addEventListener('click', introLogofunc);
