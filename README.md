@@ -26,8 +26,8 @@ To get a local copy up and running follow these simple example steps.
  * Fontawesome icons
 
  ## Authors
-  [Github:](https://github.com/fed1k)
-  [LinkedIn:](https://www.linkedin.com/in/firdavs-allamurotov-12b60a226/)
+  * [Github:](https://github.com/fed1k)
+  * [LinkedIn:](https://www.linkedin.com/in/firdavs-allamurotov-12b60a226/)
 
 ## Live version
 [Live version](https://fed1k.github.io/First-Capstone-Project/)
