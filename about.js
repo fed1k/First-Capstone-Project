@@ -31,3 +31,12 @@ const imageToggler = () => {
 };
 
 setInterval(imageToggler, 100);
+
+const link = document.querySelector('#about-contact-link');
+const linkIcon = document.querySelector('#icon-link');
+link.addEventListener('mouseover', () => {
+  linkIcon.id = 'icon-link-active';
+});
+link.addEventListener('mouseout', () => {
+  linkIcon.id = 'icon-link';
+});

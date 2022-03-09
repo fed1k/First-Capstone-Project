@@ -349,7 +349,7 @@ footer {
   gap: 18px;
 }
 
-.link {
+#icon-link {
   display: none;
 }
 
@@ -708,9 +708,15 @@ footer {
     padding: 40px 150px;
   }
 
-  .link {
-    display: block;
+  #icon-link {
+    display: inline-block;
     padding-left: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #icon-link-active {
+    transform: rotateZ(175deg);
+    transition: all 0.3s ease-in-out;
   }
 
   .see-past-section {
