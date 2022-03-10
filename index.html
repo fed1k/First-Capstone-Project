@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
     <script src="script.js" defer></script>
     <title>Main Page</title>
@@ -43,7 +44,7 @@
         </section>
         <section class="our-program" id="program">
             <h3 class="our-program-header">Our program</h3>
-            <div class="our-program-cards-container">
+            <div class="our-program-cards-container" data-aos="fade-up">
                 <div class="our-program-cards">
                     <i class="fas fa-book icons"></i>
                     <h4>USEFUL BOOKS</h4>
@@ -93,5 +94,12 @@
             </p>
         </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 180,
+            duration: 600
+        });
+      </script>
 </body>
 </html>
