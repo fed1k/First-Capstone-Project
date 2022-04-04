@@ -9,6 +9,9 @@
 ## Mobile and Desktop versions About page
 ![screenshot](img/aboutpagemobscreen.png) | ![screenshot](img/aboutpagedesktopscreen.png)
 
+## Live
+[Live demo](https://fed1k.github.io/First-Capstone-Project/)
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 ### Prerequisites
