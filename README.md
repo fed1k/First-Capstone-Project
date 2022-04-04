@@ -3,10 +3,10 @@
 2011 NCTA IELTS Annual Conference San Diego, CA
 
 
-## Mobile version Home page
+## Mobile and Desktop versions Home page
 ![screenshot](img/homepageMobile.png) | ![screenshot](img/introductionDesktopscreenshot.png)
 
-## Desktop version About page
+## Mobile and Desktop versions About page
 ![screenshot](img/aboutpagemobscreen.png) | ![screenshot](img/aboutpagedesktopscreen.png)
 
 ## Getting Started
