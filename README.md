@@ -4,10 +4,10 @@
 
 
 ## Mobile version Home page
-![screenshot](img/homepageMobile.png) | ![screenshot](img/introductionDesktopscreenshot.png)
+![screenshot](img/homepageMobile.png)
 
 ## Desktop version About page
-![screenshot](img/aboutpagemobscreen.png) | ![screenshot](img/aboutpagedesktopscreen.png)
+![screenshot](img/aboutpagedesktopscreen.png)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
